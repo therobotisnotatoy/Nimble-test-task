@@ -1,0 +1,17 @@
+### Visual Studio Code ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+*__pycache__/
+
+# dotenv environment variables file
+.env
+
+# virtual environment
+.venv
+
+# mounted postgres folder
+postgres_data/

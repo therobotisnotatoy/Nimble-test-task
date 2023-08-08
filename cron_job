@@ -1,0 +1,1 @@
+0 2 * * * /usr/bin/env $(cat /app/.env) /usr/local/bin/python /app/src/cron_job.py >> /app/logs/cron_job.log 2>&1
