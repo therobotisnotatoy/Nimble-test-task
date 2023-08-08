@@ -2,8 +2,8 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![License: MIT](
-https://img.shields.io/github/languages/count/therobotisnotatoy/asd)](https://opensource.org/licenses/MIT) [![License: MIT](
-https://img.shields.io/github/languages/top/therobotisnotatoy/asd)](https://opensource.org/licenses/MIT)[![License: MIT](https://img.shields.io/github/issues-pr-raw/therobotisnotatoy/asd)](https://opensource.org/licenses/MIT)
+https://img.shields.io/github/languages/count/therobotisnotatoy/Nimble-test-task)](https://opensource.org/licenses/MIT) [![License: MIT](
+https://img.shields.io/github/languages/top/therobotisnotatoy/Nimble-test-task)](https://opensource.org/licenses/MIT)[![License: MIT](https://img.shields.io/github/issues-pr-raw/therobotisnotatoy/Nimble-test-task)](https://opensource.org/licenses/MIT)
 
 ## Overview
 
@@ -23,13 +23,13 @@ This API provides a service to searching for contacts based on certain criteria.
 
 1. Clone the repository:
 ```
-git clone https://github.com/...
+git clone git@github.com:therobotisnotatoy/Nimble-test-task.git
 ```
 
 2. Change into the project directory:
 
 ```
-cd your-project
+cd Nimble-test-task
 ```
 
 3. Install the dependencies:
@@ -124,7 +124,7 @@ This README serves as the documentation for the API, providing information about
 
 ### GitHub Repository
 
-The source code for the API is available in the GitHub repository: !!!___________!!!
+The source code for the API is available in the GitHub repository: https://github.com/therobotisnotatoy/Nimble-test-task.git
 
 Please refer to the repository for the complete implementation of the API, including code, tests, and documentation.
 
@@ -147,9 +147,9 @@ Warning:
 - When running the application with Docker Compose, it will use either the DB_CONTAINER_NAME or DB_SERVICE_NAME environment variable to connect to the PostgreSQL database.
 
 ## Testing
-Starting tests:
+Running tests:
 ```
-python -m unittest discover tests
+python -m unittest tests/test_name
 ```
 
 ## Contributing
@@ -158,7 +158,8 @@ Not expected
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the license file [link (TBC)](#License) for details.
 
 ---
+
 [Home](#Nimble-test-task)

@@ -11,9 +11,6 @@ except ModuleNotFoundError:
     from src.db_manager import DBManager
 
 
-
-
-
 def cron_job_main(logger):
     logger.info("Starting a scheduled update of the 'contacts' database table")
     env = Env()
